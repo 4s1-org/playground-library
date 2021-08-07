@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@foo:registry":" https://gitlab.com/api/v4/projects/28705297/packages/npm/"
+    }
   },
   "files": [ ],
   "devDependencies": {
