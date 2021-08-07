@@ -21,7 +21,7 @@
     "semantic-release": "17.4.4"
   },
   "publishConfig": {
-    "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/28705297/packages/npm/",
+    "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/xxx28705297/packages/npm/",
     "access": "public"
   }
 }
