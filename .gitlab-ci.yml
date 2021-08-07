@@ -7,7 +7,7 @@ publish:
     - Yellow
   script:
     - npm i pnpm -g
-    - echo "${CI_API_V4_URL#https?}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=\${CI_JOB_TOKEN}" | tee --append .npmrc
+    - echo "${CI_API_V4_URL#https?}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=\${CI_JOB_TOKEN}" >> .npmrc
     - cat .npmrc
     - pnpm publish
   rules:
