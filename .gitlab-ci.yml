@@ -1,13 +1,22 @@
 stages:
-  - release
+  - foo
+
+build:
+  stage: foo
+  image: node:14-alpine
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  script:
+    - echo "//${CI_SERVER_HOST}/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+    - npm i pnpm -g
+    - pnpm i
+    - pnpm run build
 
 publish:
-  stage: release
+  stage: foo
   image: node:14-alpine
   rules:
     - if: $CI_COMMIT_TAG =~ /^v\d+.\d+.\d+/
   script:
-    - npm i pnpm -g
     - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
-    - cat .npmrc
     - pnpm publish
