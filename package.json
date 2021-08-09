@@ -6,8 +6,8 @@
     "type": "git",
     "url": "git@gitlab.com:yellowgarbagegroup/spielwiese/some-library.git"
   },
-  "license": "ISC",
-  "author": "",
+  "license": "MIT",
+  "author": "Steffen",
   "main": "index.js",
   "files": [],
   "scripts": {
