@@ -3,8 +3,7 @@ stages:
 
 publish:
   stage: release
-  tags:
-    - Yellow
+  image: node:14-alpine
   script:
     - npm i pnpm -g
     - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
