@@ -12,7 +12,9 @@
   "files": [],
   "scripts": {
     "build": "echo Hello World",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo no tests",
+    "lbt": "npm run lint && npm run build && npm run test",
+    "lint": "echo no linting",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
