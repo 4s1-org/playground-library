@@ -6,7 +6,7 @@ specifiers:
   '@semantic-release/gitlab': ^6.2.2
   '@semantic-release/npm': ^7.1.3
   '@types/node': 14.17.10
-  '@yellowgarbagegroup/semantic-release-config': 1.0.4
+  '@yellowgarbagegroup/semantic-release-config': 1.0.5
   semantic-release: ^17.4.5
 
 devDependencies:
@@ -15,7 +15,7 @@ devDependencies:
   '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.5
   '@semantic-release/npm': 7.1.3_semantic-release@17.4.5
   '@types/node': 14.17.10
-  '@yellowgarbagegroup/semantic-release-config': 1.0.4
+  '@yellowgarbagegroup/semantic-release-config': 1.0.5
   semantic-release: 17.4.5
 
 packages:
@@ -370,16 +370,8 @@ packages:
     resolution: {integrity: sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==}
     dev: true
 
-  /@yellowgarbagegroup/semantic-release-config/1.0.4:
-    resolution: {integrity: sha1-G/WAnxaUJKO1ZqGMSvOiZUIcoNc=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@yellowgarbagegroup/semantic-release-config/-/@yellowgarbagegroup/semantic-release-config-1.0.4.tgz}
-    dependencies:
-      '@semantic-release/changelog': 5.0.1_semantic-release@17.4.5
-      '@semantic-release/git': 9.0.0_semantic-release@17.4.5
-      '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.5
-      '@semantic-release/npm': 7.1.3_semantic-release@17.4.5
-      semantic-release: 17.4.5
-    transitivePeerDependencies:
-      - supports-color
+  /@yellowgarbagegroup/semantic-release-config/1.0.5:
+    resolution: {integrity: sha1-Nz+HCDkUtx8ptPra2U7tKH0AJ8I=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@yellowgarbagegroup/semantic-release-config/-/@yellowgarbagegroup/semantic-release-config-1.0.5.tgz}
     dev: true
 
   /JSONStream/1.3.5:
