@@ -9,9 +9,11 @@
   "license": "MIT",
   "author": "Steffen <YellowGarbageBag@4s1.de>",
   "main": "index.js",
-  "files": [],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "build": "echo Hello World",
+    "build": "echo Hello World && mkdir dist && touch dist/foo",
     "test": "echo no tests",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo no linting",
