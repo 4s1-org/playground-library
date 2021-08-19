@@ -1,23 +1,24 @@
 stages:
-  - foo
+  - validating
+  - deploying
 
-build:
-  stage: foo
+validate:
+  stage: validating
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
-    - echo "//${CI_SERVER_HOST}/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
     - pnpm i
+    - pnpm run lint
     - pnpm run build
+    - pnpm run test
 
-publish:
-  stage: foo
+dockerize:
+  stage: deploying
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
-  rules:
-    - if: $CI_COMMIT_TAG =~ /^v\d+.\d+.\d+/
-  script:
+#  rules:
+#    - if: $CI_COMMIT_TAG =~ /^v\d+.\d+.\d+/
+  before_script:
     - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+  script:
     - pnpm i
     - pnpm run build
     - pnpm publish
