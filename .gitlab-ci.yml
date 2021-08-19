@@ -11,14 +11,15 @@ stages:
     - pnpm run build
     - pnpm run test
 
-dockerize:
+.publish:
   stage: deploying
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm:14-alpine
 #  rules:
 #    - if: $CI_COMMIT_TAG =~ /^v\d+.\d+.\d+/
+#    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   before_script:
     - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
   script:
     - pnpm i
     - pnpm run build
-    - pnpm publish
+    - pnpm run semantic-release
