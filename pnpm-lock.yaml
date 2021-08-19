@@ -4,14 +4,14 @@ specifiers:
   '@semantic-release/git': 9.0.0
   '@semantic-release/gitlab': 6.2.2
   '@semantic-release/npm': 7.1.3
-  '@types/node': 14.14.9
+  '@types/node': 14.17.10
   semantic-release: 17.4.5
 
 devDependencies:
   '@semantic-release/git': 9.0.0_semantic-release@17.4.5
   '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.5
   '@semantic-release/npm': 7.1.3_semantic-release@17.4.5
-  '@types/node': 14.14.9
+  '@types/node': 14.17.10
   semantic-release: 17.4.5
 
 packages:
@@ -331,8 +331,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.14.9:
-    resolution: {integrity: sha512-JsoLXFppG62tWTklIoO4knA+oDTYsmqWxHRvd4lpmfQRNhX6osheUOWETP2jMoV/2bEHuMra8Pp3Dmo/stBFcw==}
+  /@types/node/14.17.10:
+    resolution: {integrity: sha512-09x2d6kNBwjHgyh3jOUE2GE4DFoxDriDvWdu6mFhMP1ysynGYazt4ecZmJlL6/fe4Zi2vtYvTvtL7epjQQrBhA==}
     dev: true
 
   /@types/node/16.4.13:
