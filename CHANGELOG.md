@@ -1,3 +1,10 @@
+## [2.1.2](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.1...v2.1.2) (2021-08-22)
+
+
+### Bug Fixes
+
+* pipeline ([ded4c70](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/ded4c7069823aeb81187e84eaaa9235eaea21b33))
+
 ## [2.1.1](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.0...v2.1.1) (2021-08-22)
 
 
