@@ -11,6 +11,22 @@ validate:
     - pnpm run build
     - pnpm run test
 
+validate:
+  stage: validating
+  image: node:14-alpine
+  before_script:
+    - curl -f https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
+    - pnpm config set store-dir .pnpm-store
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+    paths:
+      - .pnpm-store
+  script:
+    - pnpm i
+    - pnpm run lint
+    - pnpm run build
+    - pnpm run test
+
 publish:
   stage: deploying
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
