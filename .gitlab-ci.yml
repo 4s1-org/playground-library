@@ -13,7 +13,7 @@ validate:
 
 validate:
   stage: validating
-  image: node:14-buster
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git
   before_script:
     - curl -f https://get.pnpm.io/v6.14.js | node - add --global pnpm@6
     - pnpm config set store-dir .pnpm-store
