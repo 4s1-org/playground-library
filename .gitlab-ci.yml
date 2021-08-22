@@ -2,7 +2,7 @@ stages:
   - validating
   - deploying
 
-lint:
+validate:
   stage: validating
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
   before_script:
@@ -14,31 +14,7 @@ lint:
   script:
     - pnpm i
     - pnpm run lint
-
-build:
-  stage: validating
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
-  before_script:
-    - pnpm config set store-dir .pnpm-store
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .pnpm-store
-  script:
-    - pnpm i
     - pnpm run build
-
-test:
-  stage: validating
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
-  before_script:
-    - pnpm config set store-dir .pnpm-store
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .pnpm-store
-  script:
-    - pnpm i
     - pnpm run test
 
 publish:
