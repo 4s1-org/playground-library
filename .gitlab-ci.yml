@@ -29,8 +29,8 @@ validate:
 publish:
   stage: deploying
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  #rules:
+  #  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   variables:
     NPM_TOKEN: ${CI_JOB_TOKEN}
   before_script:
