@@ -4,7 +4,7 @@ stages:
 
 validate:
   stage: validating
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   cache:
     key: "$CI_COMMIT_REF_SLUG"
     paths:
@@ -19,7 +19,7 @@ validate:
 
 publish:
   stage: deploying
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node-with-pnpm-and-git:14-alpine
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   cache:
