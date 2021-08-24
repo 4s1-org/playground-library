@@ -6,7 +6,7 @@ specifiers:
   '@semantic-release/gitlab': 6.2.2
   '@semantic-release/npm': 7.1.3
   '@types/node': 14.17.11
-  '@yellowgarbagegroup/semantic-release-config': 1.0.5
+  '@yellowgarbagegroup/semantic-release-config': 1.0.6
   semantic-release: 17.4.6
 
 devDependencies:
@@ -15,7 +15,7 @@ devDependencies:
   '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.6
   '@semantic-release/npm': 7.1.3_semantic-release@17.4.6
   '@types/node': 14.17.11
-  '@yellowgarbagegroup/semantic-release-config': 1.0.5
+  '@yellowgarbagegroup/semantic-release-config': 1.0.6
   semantic-release: 17.4.6
 
 packages:
@@ -374,8 +374,8 @@ packages:
     resolution: {integrity: sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==}
     dev: true
 
-  /@yellowgarbagegroup/semantic-release-config/1.0.5:
-    resolution: {integrity: sha1-Nz+HCDkUtx8ptPra2U7tKH0AJ8I=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@yellowgarbagegroup/semantic-release-config/-/@yellowgarbagegroup/semantic-release-config-1.0.5.tgz}
+  /@yellowgarbagegroup/semantic-release-config/1.0.6:
+    resolution: {integrity: sha1-09NAzbRPr8bapbzbBl828mtOvBU=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@yellowgarbagegroup/semantic-release-config/-/@yellowgarbagegroup/semantic-release-config-1.0.6.tgz}
     dev: true
 
   /JSONStream/1.3.5:
