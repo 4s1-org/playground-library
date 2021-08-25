@@ -1,3 +1,10 @@
+## [2.1.4](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.3...v2.1.4) (2021-08-25)
+
+
+### Bug Fixes
+
+* **docs:** foobar2 ([e40a55a](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/e40a55a952a1114bb405c55b2d7978eca0b1a1e5))
+
 ## [2.1.3](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.2...v2.1.3) (2021-08-25)
 
 
