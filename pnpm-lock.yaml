@@ -3,19 +3,17 @@ lockfileVersion: 5.3
 specifiers:
   '@semantic-release/changelog': 5.0.1
   '@semantic-release/git': 9.0.0
-  '@semantic-release/gitlab': 6.2.2
-  '@semantic-release/npm': 7.1.3
+  '@semantic-release/gitlab': ^6.2.2
   '@types/node': 14.17.11
-  '@yellowgarbagegroup/semantic-release-config': 1.1.0
+  '@yellowgarbagegroup/semantic-release-config': 1.2.1
   semantic-release: 17.4.6
 
 devDependencies:
   '@semantic-release/changelog': 5.0.1_semantic-release@17.4.6
   '@semantic-release/git': 9.0.0_semantic-release@17.4.6
   '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.6
-  '@semantic-release/npm': 7.1.3_semantic-release@17.4.6
   '@types/node': 14.17.11
-  '@yellowgarbagegroup/semantic-release-config': 1.1.0
+  '@yellowgarbagegroup/semantic-release-config': 1.2.1_280b7b05cbd48f428051203592f64a92
   semantic-release: 17.4.6
 
 packages:
@@ -330,7 +328,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.2
-      '@types/node': 14.17.10
+      '@types/node': 14.17.11
       '@types/responselike': 1.0.0
     dev: true
 
@@ -341,15 +339,11 @@ packages:
   /@types/keyv/3.1.2:
     resolution: {integrity: sha512-/FvAK2p4jQOaJ6CGDHJTqZcUtbZe820qIeTg7o0Shg7drB4JHeL+V/dhSaly7NXx6u8eSee+r7coT+yuJEvDLg==}
     dependencies:
-      '@types/node': 14.17.10
+      '@types/node': 14.17.11
     dev: true
 
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
-    dev: true
-
-  /@types/node/14.17.10:
-    resolution: {integrity: sha512-09x2d6kNBwjHgyh3jOUE2GE4DFoxDriDvWdu6mFhMP1ysynGYazt4ecZmJlL6/fe4Zi2vtYvTvtL7epjQQrBhA==}
     dev: true
 
   /@types/node/14.17.11:
@@ -367,15 +361,25 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 14.17.10
+      '@types/node': 14.17.11
     dev: true
 
   /@types/retry/0.12.1:
     resolution: {integrity: sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==}
     dev: true
 
-  /@yellowgarbagegroup/semantic-release-config/1.1.0:
-    resolution: {integrity: sha1-DBSDLeNQ6UO9ZwDv8KOaCMHjWPE=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@yellowgarbagegroup/semantic-release-config/-/@yellowgarbagegroup/semantic-release-config-1.1.0.tgz}
+  /@yellowgarbagegroup/semantic-release-config/1.2.1_280b7b05cbd48f428051203592f64a92:
+    resolution: {integrity: sha1-28HlSSFjdzfZs9TaH8U7iRWyBd8=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@yellowgarbagegroup/semantic-release-config/-/@yellowgarbagegroup/semantic-release-config-1.2.1.tgz}
+    peerDependencies:
+      '@semantic-release/changelog': ^5.0.0
+      '@semantic-release/git': ^9.0.0
+      '@semantic-release/gitlab': ^6.2.0
+      semantic-release: 17.4.6
+    dependencies:
+      '@semantic-release/changelog': 5.0.1_semantic-release@17.4.6
+      '@semantic-release/git': 9.0.0_semantic-release@17.4.6
+      '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.6
+      semantic-release: 17.4.6
     dev: true
 
   /JSONStream/1.3.5:
