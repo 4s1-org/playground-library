@@ -1,3 +1,10 @@
+## [2.1.5](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.4...v2.1.5) (2021-08-26)
+
+
+### Bug Fixes
+
+* **devDeps:** npm package is not required ([2af57e3](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/2af57e37b1a026982a9801d5c6e9ffc79e6319b8))
+
 ## [2.1.4](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.3...v2.1.4) (2021-08-25)
 
 
