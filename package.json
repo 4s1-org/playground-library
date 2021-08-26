@@ -26,7 +26,7 @@
     "@semantic-release/npm": "7.1.3",
     "@types/node": "14.17.12",
     "@yellowgarbagegroup/semantic-release-config": "1.2.1",
-    "semantic-release": "17.4.6"
+    "semantic-release": "17.4.7"
   },
   "publishConfig": {
     "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/28705297/packages/npm/",
