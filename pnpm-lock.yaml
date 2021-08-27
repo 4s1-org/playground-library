@@ -6,8 +6,8 @@ specifiers:
   '@semantic-release/gitlab': 6.2.2
   '@types/node': 14.17.12
   '@yellowgarbagegroup/semantic-release-config': 1.2.5
-  conventional-changelog: ^3.1.24
-  conventional-changelog-conventionalcommits: ^4.6.0
+  conventional-changelog: 3.1.24
+  conventional-changelog-conventionalcommits: 4.6.0
   semantic-release: 17.4.7
 
 devDependencies:
