@@ -1,3 +1,24 @@
+# Changelog
+
+### [2.1.6](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.5...v2.1.6) (2021-08-27)
+
+
+### Bug Fixes
+
+* asdasdflk ([16f3132](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/16f3132d4d7a3191b994b4d382ef218b0a0e9a02))
+* asdfjkl ([4986adf](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/4986adf4a95adbd322d4bdc21a4112590f8fcccb))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @yellowgarbagegroup/semantic-release-config to v1.2.3 ([a35992c](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/a35992c30f768e029cea1f843bb612946aaa6591))
+
+
+### Dependencies
+
+* bla ([5078526](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/50785264b8be037e588e1b9589ee5d057d0ad935))
+* update dependency ts-node to v10 ([5ea6bcf](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/commit/5ea6bcf5618daefc248ad8ec6275c029109c3628))
+
 ## [2.1.5](https://gitlab.com/yellowgarbagegroup/spielwiese/some-library/compare/v2.1.4...v2.1.5) (2021-08-26)
 
 
