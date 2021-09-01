@@ -1,5 +1,4 @@
-
-validate:
+build-job:
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   cache:
     key: "$CI_COMMIT_REF_SLUG"
@@ -13,8 +12,8 @@ validate:
     - pnpm run build
     - pnpm run test
 
-publish:
-  needs: validate
+deploy-job::
+  needs: build-job
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
