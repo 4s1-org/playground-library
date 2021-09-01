@@ -12,7 +12,7 @@ build-job:
     - pnpm run build
     - pnpm run test
 
-deploy-job::
+deploy-job:
   needs: build-job
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   rules:
