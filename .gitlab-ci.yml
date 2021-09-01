@@ -1,5 +1,4 @@
-lint-job:
-  needs: []
+build-job:
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   cache:
     key: "$CI_COMMIT_REF_SLUG"
@@ -10,35 +9,11 @@ lint-job:
   script:
     - pnpm i
     - pnpm run lint
-
-build-job:
-  needs: ["lint-job"]
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .pnpm-store
-  before_script:
-    - pnpm config set store-dir .pnpm-store
-  script:
-    - pnpm i
     - pnpm run build
-
-test-job:
-  needs: ["build-job"]
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
-  cache:
-    key: "$CI_COMMIT_REF_SLUG"
-    paths:
-      - .pnpm-store
-  before_script:
-    - pnpm config set store-dir .pnpm-store
-  script:
-    - pnpm i
     - pnpm run test
 
 deploy-job:
-  needs: ["lint-job", "build-job", "test-job"]
+  needs: ["build-job"]
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
