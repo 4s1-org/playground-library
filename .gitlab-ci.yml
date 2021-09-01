@@ -13,7 +13,7 @@ build-job:
     - pnpm run test
 
 deploy-job:
-  needs: build-job
+  needs: ["build-job"]
   image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
