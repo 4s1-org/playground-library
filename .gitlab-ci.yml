@@ -4,9 +4,9 @@ stages:
 
 validate-job:
   stage: validate
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
   cache:
-    key: "$CI_COMMIT_REF_SLUG"
+    key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
   before_script:
@@ -19,11 +19,11 @@ validate-job:
 
 deploy-job:
   stage: deploy
-  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   cache:
-    key: "$CI_COMMIT_REF_SLUG"
+    key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
   variables:
