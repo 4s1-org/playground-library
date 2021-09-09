@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://gitlab.com/4s1/playground/some-library/compare/v3.0.3...v3.1.0) (2021-09-09)
+
+
+### Features
+
+* foo ([31828f8](https://gitlab.com/4s1/playground/some-library/commit/31828f898870817b927ce1c3d8ffc0d40aa71e4e))
+
 ### [3.0.3](https://gitlab.com/4s1/playground/some-library/compare/v3.0.2...v3.0.3) (2021-09-09)
 
 
