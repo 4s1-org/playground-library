@@ -20,7 +20,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@4s1/semantic-release-config": "2.0.0",
+    "@4s1/semantic-release-config": "2.0.1",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.1",
     "@semantic-release/gitlab": "6.2.2",
