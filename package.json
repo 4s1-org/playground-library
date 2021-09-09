@@ -1,7 +1,7 @@
 {
   "name": "@4s1/some-library",
   "version": "3.0.3",
-  "description": "",
+  "description": "Some library",
   "homepage": "https://gitlab.com/4s1/playground/some-library",
   "bugs": {
     "url": "https://gitlab.com/4s1/playground/some-library/issues"
