@@ -2,7 +2,14 @@
   "name": "@4s1/some-library",
   "version": "3.0.1",
   "description": "",
-  "repository": "gitlab:4s1/playground/some-library",
+  "homepage": "https://gitlab.com/4s1/playground/some-library",
+  "bugs": {
+    "url": "https://gitlab.com/4s1/playground/some-library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/4s1/playground/some-library.git"
+  },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
   "main": "index.js",
