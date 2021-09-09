@@ -1,5 +1,17 @@
 # Changelog
 
+### [3.0.1](https://gitlab.com/4s1/playground/some-library/compare/v3.0.0...v3.0.1) (2021-09-09)
+
+
+### Bug Fixes
+
+* test repo url ([f106eed](https://gitlab.com/4s1/playground/some-library/commit/f106eeddf7ed8b8bc87ad1454351b8d15e0b0b20))
+
+
+### Renovate Bot
+
+* update dependency @types/node to v14.17.15 ([f644604](https://gitlab.com/4s1/playground/some-library/commit/f644604dd1b47e251175ab2b3555448d483f8fbb))
+
 ## [3.0.0](https://gitlab.com/4s1/playground/some-library/compare/v2.1.6...v3.0.0) (2021-09-07)
 
 ### Miscellaneous Chores
