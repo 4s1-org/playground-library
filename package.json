@@ -2,10 +2,7 @@
   "name": "@4s1/some-library",
   "version": "3.0.0",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/4s1/playground/some-library.git"
-  },
+  "repository": "gitlab:4s1/playground/some-library",
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
   "main": "index.js",
