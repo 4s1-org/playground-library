@@ -29,7 +29,7 @@
     "@semantic-release/gitlab": "6.2.2",
     "@types/node": "14.17.15",
     "conventional-changelog": "3.1.24",
-    "conventional-changelog-conventionalcommits": "4.6.0",
+    "conventional-changelog-conventionalcommits": "4.6.1",
     "semantic-release": "17.4.7"
   },
   "publishConfig": {
