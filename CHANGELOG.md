@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.0](https://gitlab.com/4s1/playground/some-library/compare/v3.2.0...v3.3.0) (2021-09-10)
+
+
+### Features
+
+* add homepage ([cffc6ad](https://gitlab.com/4s1/playground/some-library/commit/cffc6ad26add3fac2dc2ffd221029332128c5eb7))
+
+
+### Renovate Bot
+
+* update dependency conventional-changelog-conventionalcommits to v4.6.1 ([125e31c](https://gitlab.com/4s1/playground/some-library/commit/125e31ca6953947ba6b7ed9ab6d4eb6cbfd5da69))
+
 ## [3.2.0](https://gitlab.com/4s1/playground/some-library/compare/v3.1.3...v3.2.0) (2021-09-10)
 
 
