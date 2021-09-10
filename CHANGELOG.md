@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.3](https://gitlab.com/4s1/playground/some-library/compare/v3.1.2...v3.1.3) (2021-09-10)
+
+
+### Bug Fixes
+
+* foobar ([d655154](https://gitlab.com/4s1/playground/some-library/commit/d6551547ca4789ef971f0c3fd513b5916ed27783))
+
 ### [3.1.2](https://gitlab.com/4s1/playground/some-library/compare/v3.1.1...v3.1.2) (2021-09-10)
 
 
