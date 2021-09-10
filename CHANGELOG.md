@@ -1,5 +1,17 @@
 # Changelog
 
+### [3.1.2](https://gitlab.com/4s1/playground/some-library/compare/v3.1.1...v3.1.2) (2021-09-10)
+
+
+### Bug Fixes
+
+* foobar ([a31adb6](https://gitlab.com/4s1/playground/some-library/commit/a31adb65bdb97804423ccee08c6e1fcffcced9d6))
+
+
+### Renovate Bot
+
+* update dependency @4s1/semantic-release-config to v2.0.1 ([8bcac9f](https://gitlab.com/4s1/playground/some-library/commit/8bcac9fafaa76713aac934c617adfa30d0006c07))
+
 ### [3.1.1](https://gitlab.com/4s1/playground/some-library/compare/v3.1.0...v3.1.1) (2021-09-09)
 
 
