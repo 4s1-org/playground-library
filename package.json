@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/4s1/playground/some-library.git"
+    "url": "https://gitlab.com/4s1/playground/some-library.git"
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
