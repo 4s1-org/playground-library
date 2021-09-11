@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.1](https://gitlab.com/4s1/playground/some-library/compare/v3.3.0...v3.3.1) (2021-09-11)
+
+
+### Bug Fixes
+
+* dkdkdks ([4632e18](https://gitlab.com/4s1/playground/some-library/commit/4632e18c4ad8bcd486d874d760f5a96c316265b2))
+
 ## [3.3.0](https://gitlab.com/4s1/playground/some-library/compare/v3.2.0...v3.3.0) (2021-09-10)
 
 
