@@ -26,8 +26,8 @@ deploy-job:
     key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
-  variables:
-    NPM_TOKEN: ${CI_JOB_TOKEN}
+  #variables:
+    #NPM_TOKEN: ${CI_JOB_TOKEN}
   before_script:
     - pnpm config set store-dir .pnpm-store
     - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
