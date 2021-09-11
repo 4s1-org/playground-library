@@ -2,7 +2,7 @@ stages:
   - validate
   - deploy
 
-.validate-job:
+validate-job:
   stage: validate
   image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
   cache:
@@ -30,7 +30,7 @@ deploy-job:
     NPM_TOKEN: ${CI_JOB_TOKEN}
   before_script:
     - pnpm config set store-dir .pnpm-store
-    #- echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+    - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
   script:
     - pnpm i
     - pnpm run build
