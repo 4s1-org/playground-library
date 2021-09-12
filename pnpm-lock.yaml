@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/semantic-release-config': 2.0.1
+  '@4s1/semantic-release-config': 2.1.0
   '@semantic-release/changelog': 5.0.1
   '@semantic-release/git': 9.0.1
   '@semantic-release/gitlab': 6.2.2
@@ -11,7 +11,7 @@ specifiers:
   semantic-release: 17.4.7
 
 devDependencies:
-  '@4s1/semantic-release-config': 2.0.1_1b571cbffca65f14d6d342d313081a4c
+  '@4s1/semantic-release-config': 2.1.0_1b571cbffca65f14d6d342d313081a4c
   '@semantic-release/changelog': 5.0.1_semantic-release@17.4.7
   '@semantic-release/git': 9.0.1_semantic-release@17.4.7
   '@semantic-release/gitlab': 6.2.2_semantic-release@17.4.7
@@ -22,8 +22,8 @@ devDependencies:
 
 packages:
 
-  /@4s1/semantic-release-config/2.0.1_1b571cbffca65f14d6d342d313081a4c:
-    resolution: {integrity: sha1-oLylNC+n+QPwKllzFNI8BYrB5gQ=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@4s1/semantic-release-config/-/@4s1/semantic-release-config-2.0.1.tgz}
+  /@4s1/semantic-release-config/2.1.0_1b571cbffca65f14d6d342d313081a4c:
+    resolution: {integrity: sha1-qpEXP9au4JodHQBydkyJpGQ+snQ=, tarball: https://gitlab.com/api/v4/projects/28978903/packages/npm/@4s1/semantic-release-config/-/@4s1/semantic-release-config-2.1.0.tgz}
     peerDependencies:
       '@semantic-release/changelog': ^5.0.1
       '@semantic-release/git': ^9.0.0
