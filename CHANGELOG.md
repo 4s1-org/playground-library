@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.2](https://gitlab.com/4s1/playground/some-library/compare/v3.3.1...v3.3.2) (2021-09-12)
+
+
+### Bug Fixes
+
+* some test ([3e1d46c](https://gitlab.com/4s1/playground/some-library/commit/3e1d46cba02fec9bf8cb25be7d3c81116fe04b05))
+
 ### [3.3.1](https://gitlab.com/4s1/playground/some-library/compare/v3.3.0...v3.3.1) (2021-09-11)
 
 
