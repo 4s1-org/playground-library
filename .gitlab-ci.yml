@@ -2,7 +2,7 @@ stages:
   - validate
   - deploy
 
-.validate-job:
+validate-job:
   stage: validate
   image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
   cache:
