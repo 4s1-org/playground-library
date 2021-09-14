@@ -11,6 +11,25 @@
 
 ### Bug Fixes
 
+* Update .gitlab-ci.yml ([f232eb0](https://gitlab.com/4s1/playground/some-library/commit/f232eb0f4e2a4dd08c77d26add32de821fb2a730))
+* versions ([7688a51](https://gitlab.com/4s1/playground/some-library/commit/7688a512737035f95a20a2b26ffb13906c9b5c05))
+
+
+### Renovate Bot
+
+* update dependency @4s1/semantic-release-config to v2.1.0 ([c567f83](https://gitlab.com/4s1/playground/some-library/commit/c567f832d7716b8ae08e3bb17caebf1c207d514d))
+
+## [3.4.0](https://gitlab.com/4s1/playground/some-library/compare/v3.3.2...v3.4.0) (2021-09-14)
+
+
+### Features
+
+* foo ([b78f0e7](https://gitlab.com/4s1/playground/some-library/commit/b78f0e76e79277390e3e108300321a6cdbb6d8f8))
+* foo ([3c7fd61](https://gitlab.com/4s1/playground/some-library/commit/3c7fd6109a2e7b63864c022d23b327f55eb5d947))
+
+
+### Bug Fixes
+
 * versions ([7688a51](https://gitlab.com/4s1/playground/some-library/commit/7688a512737035f95a20a2b26ffb13906c9b5c05))
 
 
