@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.6.0](https://gitlab.com/4s1/playground/some-library/compare/v3.5.0...v3.6.0) (2021-09-15)
+
+
+### Features
+
+* add husky ([f07fa70](https://gitlab.com/4s1/playground/some-library/commit/commits/f07fa70db498a1c05e9368cf394cf6c87e0279af))
+* remove semantic-release ([861b27d](https://gitlab.com/4s1/playground/some-library/commit/commits/861b27deef06c7dabe960cd847d22c47e269267e))
+
+
+### Continuous Integration
+
+* not on tags ([4afb072](https://gitlab.com/4s1/playground/some-library/commit/commits/4afb07293f6d23cd112863f05bdd10bc1435fcc0))
+
+
+### Miscellaneous Chores
+
+* reorder package.json ([ae6248f](https://gitlab.com/4s1/playground/some-library/commit/commits/ae6248f36b6d448379ed99e1da2649074f6eb8c8))
+
 ## [3.5.0](https://gitlab.com/4s1/playground/some-library/compare/v3.3.2...v3.5.0) (2021-09-15)
 
 
