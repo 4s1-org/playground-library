@@ -1,5 +1,67 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [4.0.1](https://gitlab.com/4s1/playground/some-library/compare/v4.0.0...v4.0.1) (2021-09-15)
+
+
+### Miscellaneous Chores
+
+* foobar ([63592f6](https://gitlab.com/4s1/playground/some-library/commit/63592f64217df9599a3460b61b2bbd7b5921cf90))
+
+## [4.0.0](https://gitlab.com/4s1/playground/some-library/compare/v3.6.2...v4.0.0) (2021-09-15)
+
+### [3.6.2](https://gitlab.com/4s1/playground/some-library/compare/v3.6.1...v3.6.2) (2021-09-15)
+
+### [3.6.1](https://gitlab.com/4s1/playground/some-library/compare/v3.6.0...v3.6.1) (2021-09-15)
+
+
+### Miscellaneous Chores
+
+* npmrc ([5e1646c](https://gitlab.com/4s1/playground/some-library/commit/5e1646cde2aab63a4e8632dc0b001ce93ac5cfc5))
+
+## [3.6.0](https://gitlab.com/4s1/playground/some-library/compare/v3.5.0...v3.6.0) (2021-09-15)
+
+
+### Features
+
+* add husky ([f07fa70](https://gitlab.com/4s1/playground/some-library/commit/commits/f07fa70db498a1c05e9368cf394cf6c87e0279af))
+* remove semantic-release ([861b27d](https://gitlab.com/4s1/playground/some-library/commit/commits/861b27deef06c7dabe960cd847d22c47e269267e))
+
+
+### Continuous Integration
+
+* not on tags ([4afb072](https://gitlab.com/4s1/playground/some-library/commit/commits/4afb07293f6d23cd112863f05bdd10bc1435fcc0))
+
+
+### Miscellaneous Chores
+
+* reorder package.json ([ae6248f](https://gitlab.com/4s1/playground/some-library/commit/commits/ae6248f36b6d448379ed99e1da2649074f6eb8c8))
+
+## [3.5.0](https://gitlab.com/4s1/playground/some-library/compare/v3.3.2...v3.5.0) (2021-09-15)
+
+
+### Features
+
+* add standard-version ([e408e45](https://gitlab.com/4s1/playground/some-library/commit/commits/e408e45863435aeb647d215139da87afa4797bcd))
+* foo ([b78f0e7](https://gitlab.com/4s1/playground/some-library/commit/commits/b78f0e76e79277390e3e108300321a6cdbb6d8f8))
+* foo ([3c7fd61](https://gitlab.com/4s1/playground/some-library/commit/commits/3c7fd6109a2e7b63864c022d23b327f55eb5d947))
+
+
+### Bug Fixes
+
+* Update .gitlab-ci.yml ([e145390](https://gitlab.com/4s1/playground/some-library/commit/commits/e145390a7e61315894b1ab4c6ce685a7c4c2dfae))
+* Update .gitlab-ci.yml ([74e5acb](https://gitlab.com/4s1/playground/some-library/commit/commits/74e5acb3281e1140f6cc1b95764aa6de40d51829))
+* Update .gitlab-ci.yml ([26d5caf](https://gitlab.com/4s1/playground/some-library/commit/commits/26d5caf9c7e5edce130a6a558d4482d30bd8bd06))
+* Update .gitlab-ci.yml ([f232eb0](https://gitlab.com/4s1/playground/some-library/commit/commits/f232eb0f4e2a4dd08c77d26add32de821fb2a730))
+* Update package.json ([3042b3a](https://gitlab.com/4s1/playground/some-library/commit/commits/3042b3ad5f7e24a441acf7e2d79b59a815eab753))
+* versions ([7688a51](https://gitlab.com/4s1/playground/some-library/commit/commits/7688a512737035f95a20a2b26ffb13906c9b5c05))
+
+
+### Renovate Bot
+
+* update dependency @4s1/semantic-release-config to v2.1.0 ([c567f83](https://gitlab.com/4s1/playground/some-library/commit/commits/c567f832d7716b8ae08e3bb17caebf1c207d514d))
+
 ## [3.4.0](https://gitlab.com/4s1/playground/some-library/compare/v3.3.2...v3.4.0) (2021-09-14)
 
 
