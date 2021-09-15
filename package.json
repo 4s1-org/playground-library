@@ -24,7 +24,8 @@
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major"
+    "release:major": "standard-version --release-as major",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@4s1/semantic-release-config": "2.1.0",
@@ -34,11 +35,16 @@
     "@types/node": "14.17.15",
     "conventional-changelog": "3.1.24",
     "conventional-changelog-conventionalcommits": "4.6.1",
+    "husky": "^7.0.0",
     "semantic-release": "17.4.7",
     "standard-version": "9.3.1"
   },
   "publishConfig": {
     "@4s1:registry": "https://gitlab.com/api/v4/projects/28705297/packages/npm/",
     "access": "public"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
   }
 }
