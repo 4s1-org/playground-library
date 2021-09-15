@@ -18,6 +18,7 @@
   "scripts": {
     "build": "rm -rf dist && mkdir dist && touch dist/foo",
     "test": "echo no tests",
+    "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo no linting",
     "release": "git diff --exit-code --quiet && pnpm run lbt && standard-version",
