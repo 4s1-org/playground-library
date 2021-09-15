@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.6.2](https://gitlab.com/4s1/playground/some-library/compare/v3.6.1...v3.6.2) (2021-09-15)
+
 ### [3.6.1](https://gitlab.com/4s1/playground/some-library/compare/v3.6.0...v3.6.1) (2021-09-15)
 
 
