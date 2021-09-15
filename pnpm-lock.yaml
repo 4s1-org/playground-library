@@ -4,7 +4,7 @@ specifiers:
   '@4s1/semantic-release-config': 2.1.0
   '@commitlint/cli': ^13.1.0
   '@commitlint/config-conventional': ^13.1.0
-  '@types/node': 14.17.15
+  '@types/node': 14.17.16
   husky: ^7.0.0
   standard-version: 9.3.1
 
@@ -14,7 +14,7 @@ dependencies:
 
 devDependencies:
   '@4s1/semantic-release-config': 2.1.0
-  '@types/node': 14.17.15
+  '@types/node': 14.17.16
   husky: 7.0.2
   standard-version: 9.3.1
 
@@ -196,8 +196,8 @@ packages:
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
 
-  /@types/node/14.17.15:
-    resolution: {integrity: sha512-D1sdW0EcSCmNdLKBGMYb38YsHUS6JcM7yQ6sLQ9KuZ35ck7LYCKE7kYFHOO59ayFOY3zobWVZxf4KXhYHcHYFA==}
+  /@types/node/14.17.16:
+    resolution: {integrity: sha512-WiFf2izl01P1CpeY8WqFAeKWwByMueBEkND38EcN8N68qb0aDG3oIS1P5MhAX5kUdr469qRyqsY/MjanLjsFbQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:

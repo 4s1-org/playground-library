@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@4s1/semantic-release-config": "2.1.0",
-    "@types/node": "14.17.15",
+    "@types/node": "14.17.16",
     "husky": "^7.0.0",
     "standard-version": "9.3.1"
   },
