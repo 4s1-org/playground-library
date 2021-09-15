@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.6.1](https://gitlab.com/4s1/playground/some-library/compare/v3.6.0...v3.6.1) (2021-09-15)
+
+
+### Miscellaneous Chores
+
+* npmrc ([5e1646c](https://gitlab.com/4s1/playground/some-library/commit/5e1646cde2aab63a4e8632dc0b001ce93ac5cfc5))
+
 ## [3.6.0](https://gitlab.com/4s1/playground/some-library/compare/v3.5.0...v3.6.0) (2021-09-15)
 
 

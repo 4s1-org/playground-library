@@ -1,6 +1,6 @@
 {
   "name": "@4s1/some-library",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "description": "Some library",
   "bugs": {
     "url": "https://gitlab.com/4s1/playground/some-library/issues"
@@ -20,10 +20,10 @@
     "test": "echo no tests",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo no linting",
-    "release": "standard-version",
-    "release:major": "standard-version --release-as major",
-    "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch",
+    "release": "pnpm run lbt && standard-version",
+    "release:major": "pnpm run lbt && standard-version --release-as major",
+    "release:minor": "pnpm run lbt && standard-version --release-as minor",
+    "release:patch": "pnpm run lbt && standard-version --release-as patch",
     "prepare": "husky install"
   },
   "dependencies": {
