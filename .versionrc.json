@@ -13,5 +13,6 @@
     { "type": "test", "section": "Tests", "hidden": false }
   ],
   "commitUrlFormat": "https://gitlab.com/4s1/playground/some-library/commit/{{hash}}",
-  "compareUrlFormat": "https://gitlab.com/4s1/playground/some-library/compare/{{previousTag}}...{{currentTag}}"
+  "compareUrlFormat": "https://gitlab.com/4s1/playground/some-library/compare/{{previousTag}}...{{currentTag}}",
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]"
 }
