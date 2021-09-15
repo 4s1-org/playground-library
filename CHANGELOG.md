@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://gitlab.com/4s1/playground/some-library/compare/v4.0.0...v4.0.1) (2021-09-15)
+
+
+### Miscellaneous Chores
+
+* foobar ([63592f6](https://gitlab.com/4s1/playground/some-library/commit/63592f64217df9599a3460b61b2bbd7b5921cf90))
+
 ## [4.0.0](https://gitlab.com/4s1/playground/some-library/compare/v3.6.2...v4.0.0) (2021-09-15)
 
 ### [3.6.2](https://gitlab.com/4s1/playground/some-library/compare/v3.6.1...v3.6.2) (2021-09-15)
