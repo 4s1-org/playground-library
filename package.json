@@ -21,10 +21,14 @@
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo no linting",
     "release": "standard-version",
+    "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
   },
   "devDependencies": {
     "@4s1/semantic-release-config": "2.1.0",
@@ -35,9 +39,5 @@
   "publishConfig": {
     "@4s1:registry": "https://gitlab.com/api/v4/projects/28705297/packages/npm/",
     "access": "public"
-  },
-  "dependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0"
   }
 }
