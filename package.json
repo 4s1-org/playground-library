@@ -29,7 +29,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@4s1/semantic-release-config": "2.1.0",
+    "@4s1/eslint-config": "3.1.2",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@types/node": "14.17.16",
