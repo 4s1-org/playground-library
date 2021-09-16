@@ -10,8 +10,6 @@ validate-job:
     key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
-  before_script:
-    - pnpm config set store-dir .pnpm-store
   script:
     - pnpm i
     - pnpm run lint
