@@ -84,6 +84,7 @@ pnpm add -E -D \
 ```yaml
 stages:
   - validate
+  - deploy
 
 validate-job:
   stage: validate
@@ -92,9 +93,31 @@ validate-job:
     key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
+  before_script:
+    # Access to private packages
+    - echo "//gitlab.com/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
   script:
     - pnpm i
     - pnpm run lint
     - pnpm run build
     - pnpm run test
+
+.deploy-job:
+  stage: deploy
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: ['']
+  rules:
+    - if: '$CI_COMMIT_TAG != null'
+  cache:
+    key: '$CI_COMMIT_REF_SLUG'
+    paths:
+      - .pnpm-store
+  script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"auth\":\"$(echo -n ${CI_REGISTRY_USER}:${CI_REGISTRY_PASSWORD} | base64)\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor
+      --context $CI_PROJECT_DIR
+      --dockerfile $CI_PROJECT_DIR/Dockerfile
+      --destination $CI_REGISTRY_IMAGE:latest
 ```
