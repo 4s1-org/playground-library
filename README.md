@@ -20,29 +20,9 @@ pnpm remove \
 `touch .versionrc.js`
 
 ```js
-module.exports = {
-  scripts: {
-    // https://github.com/conventional-changelog/standard-version/issues/317
-    postchangelog: 'pnpm run changelog:fix:indent',
-  },
-  header: '# Changelog\n',
-  types: [
-    { type: 'build', section: 'Build System', hidden: false },
-    { type: 'chore', section: 'Miscellaneous Chores', hidden: false },
-    { type: 'ci', section: 'Continuous Integration', hidden: false },
-    { type: 'docs', section: 'Documentation', hidden: false },
-    { type: 'feat', section: 'Features', hidden: false },
-    { type: 'fix', section: 'Bug Fixes', hidden: false },
-    { type: 'perf', section: 'Performance Improvements', hidden: false },
-    { type: 'refactor', section: 'Code Refactoring', hidden: false },
-    { type: 'revert', section: 'Reverts', hidden: false },
-    { type: 'style', section: 'Styles', hidden: false },
-    { type: 'test', section: 'Tests', hidden: false },
-  ],
-  commitUrlFormat: 'https://gitlab.com/4s1/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/commit/{{hash}}',
-  compareUrlFormat: 'https://gitlab.com/4s1/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/compare/{{previousTag}}...{{currentTag}}',
-  releaseCommitMessageFormat: 'chore(release): {{currentTag}} [skip ci]',
-}
+const config = require('@4s1/changelog-config')
+
+module.exports = config('https://gitlab.com/4s1/<PROJECT_URL>')
 ```
 
 ### .commitlintrc.json
@@ -70,14 +50,15 @@ pnpm exec commitlint --edit "$1"
 
 ```bash
 pnpm add -E -D \
-  @4s1/eslint-config \
+  @4s1/changelog-config \
   @commitlint/cli \
   @commitlint/config-conventional \
+  standard-version \
   @types/node@14.17.17 \
+  @4s1/eslint-config \
   eslint \
   husky \
   prettier \
-  standard-version \
   typescript
 ```
 
@@ -96,7 +77,6 @@ pnpm add -E -D \
 "release:minor": "pnpm run release -- --release-as minor",
 "release:patch": "pnpm run release -- --release-as patch",
 "prepare": "husky install",
-"changelog:fix:indent": "sed -r -e 's/^#{1,3} \\[/## [/' -i CHANGELOG.md"
 ```
 
 ## Pipeline
