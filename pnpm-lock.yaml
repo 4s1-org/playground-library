@@ -4,7 +4,7 @@ specifiers:
   '@4s1/eslint-config': 3.1.2
   '@commitlint/cli': ^13.1.0
   '@commitlint/config-conventional': ^13.1.0
-  '@types/node': 14.17.16
+  '@types/node': 14.17.17
   husky: 7.0.2
   standard-version: 9.3.1
 
@@ -12,7 +12,7 @@ devDependencies:
   '@4s1/eslint-config': 3.1.2
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@types/node': 14.17.16
+  '@types/node': 14.17.17
   husky: 7.0.2
   standard-version: 9.3.1
 
@@ -231,8 +231,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.17.16:
-    resolution: {integrity: sha512-WiFf2izl01P1CpeY8WqFAeKWwByMueBEkND38EcN8N68qb0aDG3oIS1P5MhAX5kUdr469qRyqsY/MjanLjsFbQ==}
+  /@types/node/14.17.17:
+    resolution: {integrity: sha512-niAjcewgEYvSPCZm3OaM9y6YQrL2SEPH9PymtE6fuZAvFiP6ereCcvApGl2jKTq7copTIguX3PBvfP08LN4LvQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
