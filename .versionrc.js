@@ -1,7 +1,8 @@
 module.exports = {
   scripts: {
     // https://github.com/conventional-changelog/standard-version/issues/317
-    postchangelog: "sed -r -e 's/^#{1,3} [/## [/' -i CHANGELOG.md",
+    // prettier-ignore
+    postchangelog: "sed -r -e 's/^#{1,3} \[/## [/' -i CHANGELOG.md",
   },
   types: [
     { type: 'build', section: 'Build System', hidden: false },
