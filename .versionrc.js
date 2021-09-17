@@ -1,3 +1,7 @@
+const toolbox = require('@4s1/toolbox')
+
+console.log(toolbox.Color)
+
 module.exports = {
   scripts: {
     // https://github.com/conventional-changelog/standard-version/issues/317

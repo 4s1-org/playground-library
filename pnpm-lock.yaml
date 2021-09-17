@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.1.2
+  '@4s1/toolbox': 1.2.3
   '@commitlint/cli': ^13.1.0
   '@commitlint/config-conventional': ^13.1.0
   '@types/node': '14'
@@ -10,6 +11,9 @@ specifiers:
   prettier: 2.4.1
   standard-version: 9.3.1
   typescript: 4.4.3
+
+dependencies:
+  '@4s1/toolbox': 1.2.3
 
 devDependencies:
   '@4s1/eslint-config': 3.1.2_13388322ed5f5557f11897bd277b61cc
@@ -40,6 +44,11 @@ packages:
       - supports-color
       - typescript
     dev: true
+
+  /@4s1/toolbox/1.2.3:
+    resolution: {integrity: sha1-5uwG6bLMpAeTG/2ccfIHi1SYe+M=, tarball: https://gitlab.com/api/v4/projects/29537331/packages/npm/@4s1/toolbox/-/@4s1/toolbox-1.2.3.tgz}
+    requiresBuild: true
+    dev: false
 
   /@babel/code-frame/7.12.11:
     resolution: {integrity: sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==}

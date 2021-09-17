@@ -43,5 +43,8 @@
   },
   "publishConfig": {
     "@4s1:registry": "https://gitlab.com/api/v4/projects/28705297/packages/npm/"
+  },
+  "dependencies": {
+    "@4s1/toolbox": "1.2.3"
   }
 }
