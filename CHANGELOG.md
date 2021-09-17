@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.13](https://gitlab.com/4s1/playground/compare/v4.0.12...v4.0.13) (2021-09-17)
+
+
+### Miscellaneous Chores
+
+* foo ([aa5d537](https://gitlab.com/4s1/playground/commit/aa5d537d5bcbb94d04a0e7fb9badced07854ab43))
+
+
+### Continuous Integration
+
+* fix pipeline ([6c55d70](https://gitlab.com/4s1/playground/commit/6c55d702b46835f61a02d4d665a2301e41624f25))
+
 ## [4.0.12](https://gitlab.com/4s1/playground/compare/v4.0.11...v4.0.12) (2021-09-17)
 
 
