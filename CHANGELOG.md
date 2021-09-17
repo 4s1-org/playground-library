@@ -1,23 +1,20 @@
 # Changelog
 
-## [4.0.13](https://gitlab.com/4s1/playground/compare/v4.0.12...v4.0.13) (2021-09-17)
-
+## [4.0.13](https://gitlab.com/4s1/playground/some-library/compare/v4.0.12...v4.0.13) (2021-09-17)
 
 ### Miscellaneous Chores
 
-* foo ([aa5d537](https://gitlab.com/4s1/playground/commit/aa5d537d5bcbb94d04a0e7fb9badced07854ab43))
-
+- foo ([aa5d537](https://gitlab.com/4s1/playground/some-library/commit/aa5d537d5bcbb94d04a0e7fb9badced07854ab43))
 
 ### Continuous Integration
 
-* fix pipeline ([6c55d70](https://gitlab.com/4s1/playground/commit/6c55d702b46835f61a02d4d665a2301e41624f25))
+- fix pipeline ([6c55d70](https://gitlab.com/4s1/playground/some-library/commit/6c55d702b46835f61a02d4d665a2301e41624f25))
 
-## [4.0.12](https://gitlab.com/4s1/playground/compare/v4.0.11...v4.0.12) (2021-09-17)
-
+## [4.0.12](https://gitlab.com/4s1/playground/some-library/compare/v4.0.11...v4.0.12) (2021-09-17)
 
 ### Miscellaneous Chores
 
-* foo ([690d55d](https://gitlab.com/4s1/playground/commit/690d55ddaafef286adb1cd692bcaa430685c2c0b))
+- foo ([690d55d](https://gitlab.com/4s1/playground/some-library/commit/690d55ddaafef286adb1cd692bcaa430685c2c0b))
 
 ## [4.0.11](https://gitlab.com/4s1/<PROJECT_URL>/compare/v4.0.10...v4.0.11) (2021-09-17)
 
