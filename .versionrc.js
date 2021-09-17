@@ -1,27 +1,4 @@
-const toolbox = require('@4s1/toolbox')
+const config = require('@4s1/changelog-config')
 
-console.log(toolbox.Color)
-
-module.exports = {
-  scripts: {
-    // https://github.com/conventional-changelog/standard-version/issues/317
-    postchangelog: 'pnpm run changelog:fix:indent',
-  },
-  header: '# Changelog\n',
-  types: [
-    { type: 'build', section: 'Build System', hidden: false },
-    { type: 'chore', section: 'Miscellaneous Chores', hidden: false },
-    { type: 'ci', section: 'Continuous Integration', hidden: false },
-    { type: 'docs', section: 'Documentation', hidden: false },
-    { type: 'feat', section: 'Features', hidden: false },
-    { type: 'fix', section: 'Bug Fixes', hidden: false },
-    { type: 'perf', section: 'Performance Improvements', hidden: false },
-    { type: 'refactor', section: 'Code Refactoring', hidden: false },
-    { type: 'revert', section: 'Reverts', hidden: false },
-    { type: 'style', section: 'Styles', hidden: false },
-    { type: 'test', section: 'Tests', hidden: false },
-  ],
-  commitUrlFormat: 'https://gitlab.com/4s1/playground/some-library/commit/{{hash}}',
-  compareUrlFormat: 'https://gitlab.com/4s1/playground/some-library/compare/{{previousTag}}...{{currentTag}}',
-  releaseCommitMessageFormat: 'chore(release): {{currentTag}} [skip ci]',
-}
+console.log(config('https://gitlab.com/4s1/<PROJECT_URL>'))
+module.exports = config('https://gitlab.com/4s1/<PROJECT_URL>')
