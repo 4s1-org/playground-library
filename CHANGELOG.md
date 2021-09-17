@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.7](https://gitlab.com/4s1/playground/some-library/compare/v4.0.4...v4.0.7) (2021-09-17)
+
+
+### Miscellaneous Chores
+
+* foo ([9a6b43c](https://gitlab.com/4s1/playground/some-library/commit/9a6b43cc8933b42dd10fff2aa28f233afba3e8af))
+
+
+### Documentation
+
+* fix indent ([5d969c1](https://gitlab.com/4s1/playground/some-library/commit/5d969c1a9c821e555e9752ebe631c3f182be2f91))
+* fix indent ([423a933](https://gitlab.com/4s1/playground/some-library/commit/423a933bb0353133171f778d533558a51a6a7193))
+* fix indent ([0785537](https://gitlab.com/4s1/playground/some-library/commit/0785537246362a77c16108ca5fa247f224ed40d0))
+
 ## [4.0.6](https://gitlab.com/4s1/playground/some-library/compare/v4.0.4...v4.0.6) (2021-09-17)
 
 ### Miscellaneous Chores
