@@ -16,8 +16,9 @@
     "dist/"
   ],
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && touch dist/foo",
+    "build": "rm -rf dist && tsc",
     "test": "echo no tests",
+    "format": "prettier --write src/",
     "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo no linting",
@@ -32,9 +33,12 @@
     "@4s1/eslint-config": "3.1.2",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@types/node": "14.17.17",
+    "@types/node": "14",
+    "eslint": "7.32.0",
     "husky": "7.0.2",
-    "standard-version": "9.3.1"
+    "prettier": "2.4.1",
+    "standard-version": "9.3.1",
+    "typescript": "4.4.3"
   },
   "publishConfig": {
     "@4s1:registry": "https://gitlab.com/api/v4/projects/28705297/packages/npm/"
