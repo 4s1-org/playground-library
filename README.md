@@ -15,28 +15,32 @@ pnpm remove \
 
 ## Files
 
-### .versionrc.json
+### .versionrc.js
 
-`touch .versionrc.json`
+`touch .versionrc.js`
 
-```json
-{
-  "types": [
-    { "type": "build", "section": "Build System", "hidden": false },
-    { "type": "chore", "section": "Miscellaneous Chores", "hidden": false },
-    { "type": "ci", "section": "Continuous Integration", "hidden": false },
-    { "type": "docs", "section": "Documentation", "hidden": false },
-    { "type": "feat", "section": "Features", "hidden": false },
-    { "type": "fix", "section": "Bug Fixes", "hidden": false },
-    { "type": "perf", "section": "Performance Improvements", "hidden": false },
-    { "type": "refactor", "section": "Code Refactoring", "hidden": false },
-    { "type": "revert", "section": "Reverts", "hidden": false },
-    { "type": "style", "section": "Styles", "hidden": false },
-    { "type": "test", "section": "Tests", "hidden": false }
+```js
+module.exports = {
+  scripts: {
+    // https://github.com/conventional-changelog/standard-version/issues/317
+    postchangelog: "sed -r -e 's/^#{1,3} [/## [/' -i CHANGELOG.md",
+  },
+  types: [
+    { type: 'build', section: 'Build System', hidden: false },
+    { type: 'chore', section: 'Miscellaneous Chores', hidden: false },
+    { type: 'ci', section: 'Continuous Integration', hidden: false },
+    { type: 'docs', section: 'Documentation', hidden: false },
+    { type: 'feat', section: 'Features', hidden: false },
+    { type: 'fix', section: 'Bug Fixes', hidden: false },
+    { type: 'perf', section: 'Performance Improvements', hidden: false },
+    { type: 'refactor', section: 'Code Refactoring', hidden: false },
+    { type: 'revert', section: 'Reverts', hidden: false },
+    { type: 'style', section: 'Styles', hidden: false },
+    { type: 'test', section: 'Tests', hidden: false },
   ],
-  "commitUrlFormat": "https://gitlab.com/4s1/XXXXXXXXXXXXXXXXXXXXXX/commit/{{hash}}",
-  "compareUrlFormat": "https://gitlab.com/4s1/XXXXXXXXXXXXXXXXXXXXXX/compare/{{previousTag}}...{{currentTag}}",
-  "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]"
+  commitUrlFormat: 'https://gitlab.com/4s1/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/commit/{{hash}}',
+  compareUrlFormat: 'https://gitlab.com/4s1/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/compare/{{previousTag}}...{{currentTag}}',
+  releaseCommitMessageFormat: 'chore(release): {{currentTag}} [skip ci]',
 }
 ```
 

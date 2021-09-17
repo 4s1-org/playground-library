@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [4.0.4](https://gitlab.com/4s1/playground/some-library/compare/v4.0.3...v4.0.4) (2021-09-17)
+## [4.0.4](https://gitlab.com/4s1/playground/some-library/compare/v4.0.3...v4.0.4) (2021-09-17)
 
 
 ### Bug Fixes
