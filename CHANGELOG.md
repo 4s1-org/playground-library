@@ -1,5 +1,7 @@
 # Changelog
 
+## [4.0.11](https://gitlab.com/4s1/<PROJECT_URL>/compare/v4.0.10...v4.0.11) (2021-09-17)
+
 ## [4.0.10](https://gitlab.com/4s1/<PROJECT_URL>/compare/v4.0.9...v4.0.10) (2021-09-17)
 
 ## [4.0.9](https://gitlab.com/4s1/<PROJECT_URL>/compare/v4.0.8...v4.0.9) (2021-09-17)
