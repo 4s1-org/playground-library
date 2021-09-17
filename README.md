@@ -23,9 +23,9 @@ pnpm remove \
 module.exports = {
   scripts: {
     // https://github.com/conventional-changelog/standard-version/issues/317
-    // prettier-ignore
-    postchangelog: "sed -r -e 's/^#{1,3} \[/## [/' -i CHANGELOG.md",
+    postchangelog: 'pnpm run changelog:fix:indent',
   },
+  header: '# Changelog\n',
   types: [
     { type: 'build', section: 'Build System', hidden: false },
     { type: 'chore', section: 'Miscellaneous Chores', hidden: false },
@@ -95,7 +95,8 @@ pnpm add -E -D \
 "release:major": "pnpm run release -- --release-as major",
 "release:minor": "pnpm run release -- --release-as minor",
 "release:patch": "pnpm run release -- --release-as patch",
-"prepare": "husky install"
+"prepare": "husky install",
+"changelog:fix:indent": "sed -r -e 's/^#{1,3} \\[/## [/' -i CHANGELOG.md"
 ```
 
 ## Pipeline

@@ -1,9 +1,9 @@
 module.exports = {
   scripts: {
     // https://github.com/conventional-changelog/standard-version/issues/317
-    // prettier-ignore
-    postchangelog: "pnpm run changelog:fix:indent",
+    postchangelog: 'pnpm run changelog:fix:indent',
   },
+  header: '# Changelog\n',
   types: [
     { type: 'build', section: 'Build System', hidden: false },
     { type: 'chore', section: 'Miscellaneous Chores', hidden: false },
