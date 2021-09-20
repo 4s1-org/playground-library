@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.0.14](https://gitlab.com/4s1/playground/some-library/compare/v4.0.13...v4.0.14) (2021-09-20)
+
+
+### Miscellaneous Chores
+
+* pin dependencies ([388b1c0](https://gitlab.com/4s1/playground/some-library/commit/388b1c07922f6276cff9e9dc53e8b6df904d1f8c))
+* update dependency @4s1/changelog-config to v2 ([e25ccca](https://gitlab.com/4s1/playground/some-library/commit/e25ccca1a70a0955f57c4e1ba240d8c34d2a3c5d))
+
+
+### Documentation
+
+* fix changelog ([a040a14](https://gitlab.com/4s1/playground/some-library/commit/a040a149303094a813f8d7fb34cda19a356b99c7))
+* fix changelog ([80ca9af](https://gitlab.com/4s1/playground/some-library/commit/80ca9af21d1fdd59e76f9cbda264249b0ddacd48))
+* foo ([2e2768b](https://gitlab.com/4s1/playground/some-library/commit/2e2768b56dc912f8d1fe2e11f88b0358a8e78ef6))
+
 ## [4.0.13](https://gitlab.com/4s1/playground/some-library/compare/v4.0.12...v4.0.13) (2021-09-17)
 
 ### Miscellaneous Chores
