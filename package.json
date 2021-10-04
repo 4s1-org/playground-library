@@ -36,7 +36,7 @@
   },
   "prettier": "@4s1/eslint-config",
   "dependencies": {
-    "@4s1/toolbox": "2.0.0"
+    "@4s1/toolbox": "3.0.0"
   },
   "devDependencies": {
     "@4s1/eslint-config": "3.1.2",
