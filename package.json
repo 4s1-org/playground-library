@@ -21,8 +21,6 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "build:dev": "pnpm run build -- --project tsconfig.dev.json",
-    "start": "node dist/index.js",
-    "start:dev": "node --loader ts-node/esm src/index.ts",
     "format": "prettier --write src/",
     "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
@@ -33,6 +31,8 @@
     "release:major": "pnpm run release -- --release-as major",
     "release:minor": "pnpm run release -- --release-as minor",
     "release:patch": "pnpm run release -- --release-as patch",
+    "start": "node dist/index.js",
+    "start:dev": "node --loader ts-node/esm src/index.ts",
     "test": "echo no tests"
   },
   "prettier": "@4s1/eslint-config",
