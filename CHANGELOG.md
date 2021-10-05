@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.1](https://gitlab.com/4s1/playground/some-library/compare/v6.0.0...v6.0.1) (2021-10-05)
+
+
+### Features
+
+* foobar ([893318e](https://gitlab.com/4s1/playground/some-library/commit/893318e63b45868e96bb743c63d7bcffea3797e2))
+
 ## 6.0.0 (2021-10-05)
 
 
