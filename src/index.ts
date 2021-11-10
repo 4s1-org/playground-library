@@ -1,3 +1,3 @@
-export { Foo } from './foo.js'
+export { Foo } from './foo'
 
 console.log('Hello World')
