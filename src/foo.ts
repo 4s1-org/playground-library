@@ -13,4 +13,11 @@ export class Foo {
       console.log(i)
     }
   }
+
+  public App() {
+    // 'Empty block statement' code smell
+    try {
+    } catch (e) {}
+    return
+  }
 }
