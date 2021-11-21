@@ -1,13 +1,13 @@
 {
-  "name": "@4s1/some-library",
+  "name": "@4s1/playground-library",
   "version": "7.0.0",
-  "description": "Some library",
+  "description": "playground library",
   "bugs": {
-    "url": "https://gitlab.com/4s1/playground/some-library/issues"
+    "url": "https://gitlab.com/4s1/playground-library/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/4s1/playground/some-library.git"
+    "url": "https://gitlab.com/4s1/playground-library.git"
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
