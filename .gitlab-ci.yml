@@ -15,6 +15,7 @@ sonarcloud-check:
     paths:
       - .sonar/cache
   script:
+    - pnpm i
     - sonar-scanner
   only:
     - merge_requests
