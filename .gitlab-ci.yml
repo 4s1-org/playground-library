@@ -39,3 +39,4 @@ validate-job:
     - pnpm run lint
     - pnpm run build
     - pnpm run test
+    - echo "****\n* D123 *\n*****"
