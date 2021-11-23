@@ -4,9 +4,6 @@ stages:
 variables:
   SONAR_USER_HOME: '${CI_PROJECT_DIR}/.sonar' # Defines the location of the analysis task cache
   GIT_DEPTH: '0' # Tells git to fetch all the branches of the project, required by the analysis task
-  DEPLOY_ENVIRONMENT:
-    value: "staging"
-    description: "The deployment target. Change this variable to 'canary' or 'production' if needed."
 
 sonarcloud-check:
   stage: validate
@@ -28,6 +25,8 @@ sonarcloud-check:
 validate-job:
   stage: validate
   image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
+  variables:
+    foo: "bar"
   cache:
     key: '$CI_COMMIT_REF_SLUG'
     paths:
