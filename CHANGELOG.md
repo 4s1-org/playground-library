@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.1.0](https://gitlab.com/4s1/playground-library/compare/v8.0.0...v8.1.0) (2021-12-07)
+
+
+### Bug Fixes
+
+* **foo:** bar ([57cd89f](https://gitlab.com/4s1/playground-library/commit/57cd89f6dd1ae7e869f6ff080a01addcc3b0d5e1))
+* remove code smells ([bda1a8f](https://gitlab.com/4s1/playground-library/commit/bda1a8f4f4de0dbf81e6f6b409eb4fcb5714cac8))
+
 ## [8.0.0](https://gitlab.com/4s1/playground-library/compare/v7.0.0...v8.0.0) (2021-11-21)
 
 ## [7.0.0](https://gitlab.com/4s1/playground-library/compare/v6.0.3...v7.0.0) (2021-11-10)
