@@ -1,5 +1,5 @@
 export class Foo {
-  public log() {
+  public log(): void {
     console.log('Foo')
   }
 }
