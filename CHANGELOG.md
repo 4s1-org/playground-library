@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.5.3](https://gitlab.com/4s1/playground-library/compare/v8.5.2...v8.5.3) (2021-12-17)
+
+
+### Bug Fixes
+
+* typo ([8ecfe63](https://gitlab.com/4s1/playground-library/commit/8ecfe63afe5c28c4f6c5b1f87f30012ea7627101))
+
 ## [8.5.2](https://gitlab.com/4s1/playground-library/compare/v8.5.1...v8.5.2) (2021-12-17)
 
 ## [8.5.1](https://gitlab.com/4s1/playground-library/compare/v8.5.0...v8.5.1) (2021-12-17)
