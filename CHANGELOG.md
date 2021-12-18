@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.5.5](https://gitlab.com/4s1/playground-library/compare/v8.5.4...v8.5.5) (2021-12-18)
+
 ## [8.5.4](https://gitlab.com/4s1/playground-library/compare/v8.5.3...v8.5.4) (2021-12-18)
 
 ## [8.5.3](https://gitlab.com/4s1/playground-library/compare/v8.5.2...v8.5.3) (2021-12-17)
