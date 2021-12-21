@@ -46,7 +46,7 @@
     "@4s1/toolbox": "4.1.0"
   },
   "devDependencies": {
-    "@4s1/eslint-config": "3.4.0",
+    "@4s1/eslint-config": "3.5.0",
     "@4s1/ts-config": "1.4.0",
     "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "15.0.0",
