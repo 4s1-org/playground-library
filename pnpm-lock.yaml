@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/eslint-config': 3.5.0
-  '@4s1/toolbox': 4.1.0
+  '@4s1/toolbox': 4.2.0
   '@4s1/ts-config': 1.4.0
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
@@ -18,7 +18,7 @@ specifiers:
   typescript: 4.5.4
 
 dependencies:
-  '@4s1/toolbox': 4.1.0
+  '@4s1/toolbox': 4.2.0
 
 devDependencies:
   '@4s1/eslint-config': 3.5.0_ba774bd13ac984de53bb542ab42931b7
@@ -55,8 +55,8 @@ packages:
       - typescript
     dev: true
 
-  /@4s1/toolbox/4.1.0:
-    resolution: {integrity: sha512-wIij4Y2kLA2EQBr0y5RbXJ7oej8n/kiGvuRTT4o7BzrZTRoRzILn0k+tiXbM81kQzHIfbt8MJtXAmk1WaZHShQ==}
+  /@4s1/toolbox/4.2.0:
+    resolution: {integrity: sha512-bLudFW4ZNIKMDGX4x/N+2gwTY6sSOyWuLcJOM4aNSFU9ZuXyUNGNQsrsepCXyAoniJy6C/2goJa1ul/3uKDk0w==}
     dev: false
 
   /@4s1/ts-config/1.4.0:
