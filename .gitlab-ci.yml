@@ -1,13 +1,13 @@
 include:
   - project: 4s1/gitlab-ci-config
     file: 'all/prevent-detached-pipeline/.gitlab-ci.yml'
-  - project: 4s1/gitlab-ci-config
-    file: 'typescript/validate/.gitlab-ci.yml'
+  #- project: 4s1/gitlab-ci-config
+  #  file: 'typescript/validate/.gitlab-ci.yml'
   - project: 4s1/gitlab-ci-config
     file: 'typescript/sonarlint/.gitlab-ci.yml'
 
 stages:
-  - validate
+  #- validate
   - sonarlint
 
 sonarlint:
@@ -17,6 +17,7 @@ sonarlint:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
       when: on_success
     - when: manual
-  before_script:
-    - echo CI_MERGE_REQUEST_TARGET_BRANCH_NAME $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
-    - echo CI_PIPELINE_SOURCE $CI_PIPELINE_SOURCE
+  script:
+    - echo CI_MERGE_REQUEST_TARGET_BRANCH_NAME = $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    - echo CI_PIPELINE_SOURCE = $CI_PIPELINE_SOURCE
+    - sonar-scanner
