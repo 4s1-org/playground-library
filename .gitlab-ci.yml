@@ -18,4 +18,5 @@ sonarlint:
       when: on_success
     - when: manual
   before_script:
-    - echo $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    - echo CI_MERGE_REQUEST_TARGET_BRANCH_NAME $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    - echo CI_PIPELINE_SOURCE $CI_PIPELINE_SOURCE
