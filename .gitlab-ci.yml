@@ -1,22 +1,50 @@
-include:
-  #- project: 4s1/gitlab-ci-config
-  #  file: 'all/prevent-detached-pipeline/.gitlab-ci.yml'
-  - project: 4s1/gitlab-ci-config
-    file: 'typescript/validate/.gitlab-ci.yml'
-  - project: 4s1/gitlab-ci-config
-    file: 'typescript/sonarlint/.gitlab-ci.yml'
-
 stages:
-  - validate
   - sonarlint
 
 sonarlint:
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-      when: on_success
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-      when: on_success
-    - when: manual
+
+  script:
+
+
+sonarlint:
+  stage: sonarlint
+  image:
+    # https://gitlab.com/4s1/docker/-/blob/main/sonarlint-cli/Dockerfile
+    name: registry.gitlab.com/4s1/docker/sonarlint-cli:latest
+    entrypoint: ['']
+  # rules:
+  #   - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  #     when: on_success
+  #   - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+  #     when: on_success
+  #   - when: manual
+  only:
+    - main
+    - merge_requests
+  allow_failure: true
+  cache:
+    key: '${CI_JOB_NAME}'
+    paths:
+      - .sonar/cache
+  variables:
+    # Defines the location of the analysis task cache
+    SONAR_USER_HOME: '${CI_PROJECT_DIR}/.sonar'
+    # Tells git to fetch all the branches of the project, required by the analysis task
+    GIT_DEPTH: '0'
+    # clone entire repo instead of reusing workspace
+    # - https://gitlab.com/gitlab-org/gitlab/-/issues/292470
+    # - https://gitlab.com/gitlab-org/gitlab/-/issues/350100
+    # GIT_STRATEGY: 'clone'
+  before_script:
+    # SonarQube doesn't support extending tsconfig.json from a NPM package. So, grab it manually.
+    - mkdir tmp
+    - pkg_version=$(jq -r '.devDependencies["@4s1/ts-config"]' package.json)
+    - curl --fail --output tmp/tsconfig_registry.tgz "https://registry.npmjs.org/@4s1/ts-config/-/ts-config-${pkg_version}.tgz"
+    - tar -xf tmp/tsconfig_registry.tgz -C tmp
+    - tsconfig_base=$(sed -n 's|.*"@4s1/ts-config/\([^;]*\)".*|\1|p' tsconfig.json)
+    - cp tmp/package/${tsconfig_base} .
+    - rm -rf tmp
+    - sed -i "s|@4s1/ts-config|.|" tsconfig.json
   script:
     - echo CI_MERGE_REQUEST_TARGET_BRANCH_NAME = $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
     - echo CI_PIPELINE_SOURCE = $CI_PIPELINE_SOURCE
