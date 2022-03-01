@@ -1,10 +1,12 @@
+include:
+  #- project: 4s1/gitlab-ci-config
+  #  file: 'all/prevent-detached-pipeline/.gitlab-ci.yml'
+  - project: 4s1/gitlab-ci-config
+    file: 'typescript/validate/.gitlab-ci.yml'
+
 stages:
+  - validate
   - sonarlint
-
-sonarlint:
-
-  script:
-
 
 sonarlint:
   stage: sonarlint
