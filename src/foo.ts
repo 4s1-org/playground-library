@@ -1,5 +1,6 @@
 export class Foo {
   public log(): void {
-    console.log('Foo')
+    const url = 'http://not.good.com'
+    console.log('Foo', url)
   }
 }
