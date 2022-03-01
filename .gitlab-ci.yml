@@ -24,7 +24,7 @@ validate:
     # - pnpm run build
     # - pnpm run test:cov
 
-# foo
+# fooasfdasdfrgdfgdsfg
 sonarlint:
   stage: sonarlint
   image:
