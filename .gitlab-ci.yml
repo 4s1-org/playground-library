@@ -8,6 +8,7 @@ stages:
   - validate
   - sonarlint
 
+# foo
 sonarlint:
   stage: sonarlint
   image:
