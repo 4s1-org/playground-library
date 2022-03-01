@@ -6,4 +6,3 @@ node_modules/
 *.swp
 /.pnpm-debug.log
 /coverage/
-/tsconfig.gitlab.json
