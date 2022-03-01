@@ -1,5 +1,6 @@
 export class Foo {
   public log(): void {
-    console.log('Foo')
+    const password = 'ajdkfl'
+    console.log('Foo', password)
   }
 }
