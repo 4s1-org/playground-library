@@ -4,8 +4,9 @@ stages:
 bar:
   stage: foo
   rules:
-    - if: ($CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_PIPELINE_SOURCE == "merge_request_event") && $CI_COMMIT_BRANCH !~ /^renovate.*$/
+    - if: $CI_COMMIT_BRANCH =~ /^renovate.*/
       when: on_success
     - when: never
   script:
     - echo $CI_COMMIT_BRANCH
+    - echo $CI_COMMIT_REF_NAME
