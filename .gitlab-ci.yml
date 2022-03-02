@@ -9,5 +9,6 @@ bar:
     - when: never
   script:
     - echo foo
+    - echo $CI_PIPELINE_SOURCE
     - echo $CI_COMMIT_BRANCH
     - echo $CI_COMMIT_REF_NAME
