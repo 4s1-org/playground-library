@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.5.6](https://gitlab.com/4s1/playground-library/compare/v8.5.5...v8.5.6) (2022-03-02)
+
+
+### Features
+
+* sonarlint ([037cadb](https://gitlab.com/4s1/playground-library/commit/037cadbf35f84b85c6adb285ebfe766b53040675))
+
+
+### Bug Fixes
+
+* add errpr ([ca4f93e](https://gitlab.com/4s1/playground-library/commit/ca4f93e248b655aebf231b9305525920e03a118e))
+* bug ([44244d1](https://gitlab.com/4s1/playground-library/commit/44244d12f49c6202dc10bf6dba8606428757dd16))
+* debug output ([ab10ca7](https://gitlab.com/4s1/playground-library/commit/ab10ca76f8eeec02cd008e80c433eeec8c309054))
+* new lockfile ([d0b9223](https://gitlab.com/4s1/playground-library/commit/d0b92232816506848955e2a7e7e2b0b79a0b938b))
+* remove bug ([285e2d3](https://gitlab.com/4s1/playground-library/commit/285e2d35f5331e66e5a007e703958812dcd0fa40))
+* sonar ([9e33c27](https://gitlab.com/4s1/playground-library/commit/9e33c279f413f60dead0a4c6159a535a67a03731))
+* sonar ([f37721a](https://gitlab.com/4s1/playground-library/commit/f37721a681c0a509d43126889f2af9e01909fcd2))
+* sonarlint ([98bbeb9](https://gitlab.com/4s1/playground-library/commit/98bbeb9ec8af47544a2ecae028d157355d6b4775))
+
 ## [8.5.5](https://gitlab.com/4s1/playground-library/compare/v8.5.4...v8.5.5) (2021-12-18)
 
 ## [8.5.4](https://gitlab.com/4s1/playground-library/compare/v8.5.3...v8.5.4) (2021-12-18)
