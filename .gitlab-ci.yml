@@ -5,5 +5,11 @@ include:
     file: 'typescript/sonarlint/.gitlab-ci.yml'
 
 stages:
+  - foo
   - validate
   - sonarlint
+
+bar:
+  stage: foo
+  script:
+    - echo $CI_COMMIT_BRANCH
