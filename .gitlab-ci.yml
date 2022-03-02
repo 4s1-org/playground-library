@@ -4,7 +4,7 @@ stages:
 bar:
   stage: foo
   rules:
-    - if: $CI_COMMIT_BRANCH =~ /^renovate.*/
+    - if: $CI_COMMIT_BRANCH =~ /^renovate\/.*/
       when: on_success
     - when: never
   script:
