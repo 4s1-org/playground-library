@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
       - name: tsconfig hack # SonarCloud doesn't support extending tsconfig.json from a NPM package. So, grab it manually.
-        - run: |
+        run: |
           mkdir tmp
           pkg_version=$(jq -r '.devDependencies["@4s1/ts-config"]' package.json)
           curl --fail --output tmp/tsconfig_registry.tgz "https://registry.npmjs.org/@4s1/ts-config/-/ts-config-${pkg_version}.tgz"
