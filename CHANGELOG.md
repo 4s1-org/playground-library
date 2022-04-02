@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [8.5.6](https://gitlab.com/4s1/playground-library/compare/v8.5.5...v8.5.6) (2022-03-02)
 
-
 ### Features
 
 * sonarlint ([037cadb](https://gitlab.com/4s1/playground-library/commit/037cadbf35f84b85c6adb285ebfe766b53040675))
