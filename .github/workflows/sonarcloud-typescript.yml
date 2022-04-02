@@ -1,4 +1,4 @@
-name: SonarCloud TypeScript
+name: SonarCloud
 
 on:
   push:
@@ -10,3 +10,5 @@ on:
 jobs:
   sonarcloud-typescript:
     uses: 4s1-org/ci-cd-config/.github/workflows/sonarcloud-typescript.yml@main
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
