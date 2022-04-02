@@ -8,7 +8,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 * sonarlint ([037cadb](https://gitlab.com/4s1/playground-library/commit/037cadbf35f84b85c6adb285ebfe766b53040675))
 
-
 ### Bug Fixes
 
 * add errpr ([ca4f93e](https://gitlab.com/4s1/playground-library/commit/ca4f93e248b655aebf231b9305525920e03a118e))
